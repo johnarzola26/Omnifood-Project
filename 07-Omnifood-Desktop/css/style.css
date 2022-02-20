@@ -38,7 +38,7 @@ Default: 1
 /* HTML font-size set to 10 px to utilize rem */
 html {
   /* Call google font family */
-  font-family: "Inter", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 10px;
   /* universal font size of user browser setting */
   font-size: 62.5%;
