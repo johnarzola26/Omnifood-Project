@@ -58,6 +58,7 @@ html {
   font-size: 10px;
   /* universal font size of user browser setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -65,6 +66,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* this only works if there is nothing absolutely positioned in relation to the body */
+  overflow-x: hidden;
 }
 
 /************************************/
