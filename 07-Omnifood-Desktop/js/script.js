@@ -1,3 +1,9 @@
+console.log("Hello World!");
+
+const myName = "John Arzola";
+const h1 = document.querySelector(".heading-primary");
+console.log(myName);
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
