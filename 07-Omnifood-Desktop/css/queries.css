@@ -262,6 +262,32 @@
   .step-img-box:nth-child(6) {
     grid-row: 5;
   }
+
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
 }
 /* - Font sizes (px) 
 2 / 4 / 8 / 12 / 16 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
