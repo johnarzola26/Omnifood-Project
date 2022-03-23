@@ -59,6 +59,9 @@ html {
   /* universal font size of user browser setting */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* does not work on safari or microsoft edge */
+  /* scroll-behavior: smooth; */
 }
 
 body {
